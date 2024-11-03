@@ -109,6 +109,7 @@ header .hero .container button {
 
 .section2 {
   background-color: #f5f4f4;
+  margin-bottom: 80px;
 }
 .section2 .container {
   display: flex;
