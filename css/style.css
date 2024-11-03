@@ -379,6 +379,9 @@ footer .container .copy {
 }
 
 @media (max-width: 480px) {
+  .btn {
+    padding: 7.5px 30px;
+  }
   header nav .container {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
@@ -512,5 +515,44 @@ footer .container .copy {
   }
   .section5 .container h3 {
     font-size: 18px;
+  }
+  .section6 .container {
+    padding: 0;
+  }
+  .section6 .container .sct-title {
+    background-color: white;
+  }
+  .section6 .container .sct-title h1 {
+    font-size: 24px;
+  }
+  .section6 .container .block {
+    flex-direction: column;
+  }
+  .section7 .container {
+    padding: 0;
+  }
+  .section7 .container .sct-title h1 {
+    font-size: 24px;
+  }
+  .section7 .container .block {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  footer .container .foot-logo img {
+    width: 50%;
+  }
+  footer .container .foot-logo .contact h2 {
+    font-size: 16px;
+  }
+  footer .container .foot-logo .contact p {
+    font-size: 16px;
+  }
+  footer .container .footer-info p {
+    font-size: 24px;
+    line-height: 20px;
+  }
+  footer .container .footer-info .socials {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */

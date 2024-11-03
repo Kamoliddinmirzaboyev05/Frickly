@@ -397,6 +397,10 @@ footer{
 
 
 @media (max-width: 480px){
+    .btn{
+        padding: 7.5px 30px;
+
+    }
     header{
         nav{
             .container{
@@ -552,5 +556,60 @@ footer{
         }
     }
 }
+.section6{
+    .container{
+        padding: 0;
+        .sct-title{
+            background-color: white;
+            h1{
+                font-size: 24px;
+            }
+        }
+        .block{
+            flex-direction: column;
+        }
+    }
+}
 
+.section7{
+    .container{
+        padding: 0;
+        .sct-title{
+            h1{
+                font-size: 24px;
+            }
+        }
+        .block{
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+        }
+    }
+}
+footer{
+    .container{
+        .foot-logo{
+            img{
+                width: 50%;
+            }
+            .contact{
+                h2{
+                    font-size: 16px;
+                }
+                p{
+                    font-size: 16px;
+                }
+            }
+        }
+        .footer-info{
+            p{
+                font-size: 24px;
+                line-height: 20px;
+            }
+            .socials{
+                flex-direction: column;
+            }
+        }
+    }
+}
 }
