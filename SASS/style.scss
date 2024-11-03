@@ -583,6 +583,13 @@ footer{
             flex-direction: column;
             gap: 30px;
             align-items: center;
+            padding-bottom: 50px;
+        }
+        .welcome{
+            padding-bottom: 50px;
+            h1{
+                font-size: 22px;
+            }
         }
     }
 }
@@ -602,12 +609,16 @@ footer{
             }
         }
         .footer-info{
+            gap: 30px;
             p{
                 font-size: 24px;
                 line-height: 20px;
             }
             .socials{
                 flex-direction: column;
+                i{
+                    font-size: 22px;
+                }
             }
         }
     }

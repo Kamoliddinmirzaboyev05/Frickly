@@ -538,6 +538,13 @@ footer .container .copy {
     flex-direction: column;
     gap: 30px;
     align-items: center;
+    padding-bottom: 50px;
+  }
+  .section7 .container .welcome {
+    padding-bottom: 50px;
+  }
+  .section7 .container .welcome h1 {
+    font-size: 22px;
   }
   footer .container .foot-logo img {
     width: 50%;
@@ -548,11 +555,17 @@ footer .container .copy {
   footer .container .foot-logo .contact p {
     font-size: 16px;
   }
+  footer .container .footer-info {
+    gap: 30px;
+  }
   footer .container .footer-info p {
     font-size: 24px;
     line-height: 20px;
   }
   footer .container .footer-info .socials {
     flex-direction: column;
+  }
+  footer .container .footer-info .socials i {
+    font-size: 22px;
   }
 }/*# sourceMappingURL=style.css.map */
